@@ -27,6 +27,11 @@ $(document).ready(function(e) {
                 success: function() {
                     $('#submit').val('Send Message');
                     swal('Pylate', 'We received your contact!', 'success');
+                    $('#fname').val("");
+                    $('#lname').val("");
+                    $('#email').val("");
+                    $('#subject').val("");
+                    $('#message').val("");
                 }
             });
         }
